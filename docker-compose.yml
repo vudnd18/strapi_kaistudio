@@ -12,9 +12,9 @@ services:
       DATABASE_USERNAME: ${DATABASE_USERNAME}
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       NODE_ENV: production
-      LETSENCRYPT_HOST: kaistudio.vn
+      LETSENCRYPT_HOST: admin.kaistudio.vn
       LETSENCRYPT_EMAIL: vudnd18@gmail.com
-      VIRTUAL_HOST: kaistudio.vn
+      VIRTUAL_HOST: admin.kaistudio.vn
       VIRTUAL_PORT: 1337
     volumes:
       - ./:/srv/app
